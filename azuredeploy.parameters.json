@@ -1,0 +1,88 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+	   "persCode": {
+          "value": 11111111111111
+       },
+       "vmSize": {
+           "value": "Standard_A1"
+        }
+        "location": {
+            "value": "westus"
+        },
+        "vmAdminNameTrendDSM": {
+            "value": "trend"
+        },
+        "vmAdminPasswordTrendDSM": {
+            "value": "GEN-PASSWORD"
+        },
+        "vmSizeTrendDSM": {
+            "value": "Standard_D2_v2"
+        },
+        "dsmAdminName": {
+            "value": "trend"
+        },
+        "dsmAdminPassword": {
+            "value": "GEN-PASSWORD"
+        },
+        "dbName": {
+            "value": "dsm"
+        },
+        "dbAdminName": {
+            "value": "trend"
+        },
+        "dbAdminPassword": {
+            "value": "GEN-PASSWORD"
+        },
+        "publicIPDomainNameLabelTrendDSM": {
+            "value": "GEN-UNIQUE"
+        },
+        "managerPortTrendDSM": {
+            "value": "443"
+        },
+        "heartbeatPortTrendDSM": {
+            "value": "4120"
+        },
+        "vmAdminUsernameOrchServer": {
+            "value": "trend"
+        },
+        "vmAdminPasswordOrchServer": {
+            "value": "GEN-PASSWORD"
+        },
+        "publicIPDomainNameLabelOrchServer": {
+            "value": "GEN-UNIQUE"
+        },
+        "adminUsernameDSAgentWindows": {
+            "value": "trend"
+        },
+        "adminPasswordDSAgentWindows": {
+            "value": "GEN-PASSWORD"
+        },
+        "publicIPDomainNameLabelDSAgentWindows": {
+            "value": "GEN-UNIQUE"
+        },
+        "windowsvmcount": {
+            "value": 1
+        },
+        "adminUsernameDSAgent": {
+            "value": "trend"
+        },
+        "adminPasswordDSAgent": {
+            "value": "GEN-PASSWORD"
+        },
+        "publicIPDomainNameLabelDSAgent": {
+            "value": "GEN-UNIQUE"
+        },
+        "linuxvmcount": {
+            "value": 1
+        },
+        "baseUrl": {
+            "value": ""
+        },
+        "automateLicenseUri": {
+            "value": ""
+        }
+    }
+}
+
